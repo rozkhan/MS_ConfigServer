@@ -1,4 +1,8 @@
-cloud:
+spring:
+  application:
+    name: WELCOME_API_CONFIG
+    
+  cloud:
     compatibility-verifier:
       enabled: false  
   boot:
