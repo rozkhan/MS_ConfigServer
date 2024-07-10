@@ -1,7 +1,11 @@
+spring:
+  application:
+    name: WELCOME_API_CONFIG
+    
   cloud:
     compatibility-verifier:
       enabled: false  
   boot:
     admin:
       client:
-        url: http://localhost:1111/ 
+        url: http://localhost:1111/
